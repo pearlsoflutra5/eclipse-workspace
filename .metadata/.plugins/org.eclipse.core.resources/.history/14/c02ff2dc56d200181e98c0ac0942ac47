@@ -1,0 +1,20 @@
+package Chapter6;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class test {
+	
+
+
+	@Test
+	public void testReverse() {
+		assertEquals(6543, reverse(3456))
+	}
+	
+	public void testispalindrome() {
+		
+	}
+
+}

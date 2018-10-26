@@ -1,0 +1,13 @@
+package chapter6;
+
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+
+class Exercise6point25test {
+
+	@Test
+	public void testConvertMillis() {
+		assertEquals(null, Exercise6point25.convertMillis(11245));
+	}
+
+}

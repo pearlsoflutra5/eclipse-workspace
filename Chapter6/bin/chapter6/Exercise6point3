@@ -1,0 +1,41 @@
+import java.util.Scanner;
+
+class Example6point3 {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter a whole number: ");
+		integer number = input.nextInt();
+		
+		if (isPalindrome(number) == true){
+			System.out.println(number + " is a palindrome");
+		}
+		else{
+			System.out.println(number + " is not a palindrome");
+		}
+		
+	}
+	public static boolean isPalindrome(integer number){
+		integer reverse = reverse(number);
+		
+		if (number == reverse) {
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+	
+	public static integer reverse(integer number) { 
+		integer result = 0;
+		integer remainder;
+		
+		while (number > 0) {
+			remainder = number % 10; 
+			number = number / 10;
+			result = result * 10 + remainder;
+		}
+		
+		return result;
+	}
+
+}

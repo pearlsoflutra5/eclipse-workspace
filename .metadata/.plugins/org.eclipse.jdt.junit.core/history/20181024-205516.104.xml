@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Exercise6point25test" project="6-3 Test" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="chapter6.Exercise6point25test" time="0.002" displayname="Exercise6point25test" uniqueid="[engine:junit-jupiter]/[class:chapter6.Exercise6point25test]">
+    <testcase name="testConvertMillis" classname="chapter6.Exercise6point25test" time="0.002" displayname="testConvertMillis()" uniqueid="[engine:junit-jupiter]/[class:chapter6.Exercise6point25test]/[method:testConvertMillis()]"/>
+  </testsuite>
+</testrun>

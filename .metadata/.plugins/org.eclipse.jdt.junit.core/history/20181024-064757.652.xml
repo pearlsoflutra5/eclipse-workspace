@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Exercise6point3test" project="6-3 Test" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="chapter6.Exercise6point3test" time="0.006" uniqueid="[engine:junit-vintage]/[runner:chapter6.Exercise6point3test]">
+    <testcase name="testReverse" classname="chapter6.Exercise6point3test" time="0.006" displayname="testReverse" uniqueid="[engine:junit-vintage]/[runner:chapter6.Exercise6point3test]/[test:testReverse(chapter6.Exercise6point3test)]"/>
+  </testsuite>
+</testrun>

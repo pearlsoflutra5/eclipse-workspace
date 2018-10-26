@@ -1,0 +1,42 @@
+package chapter6;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class Exercise6point3test {
+
+	/*
+	 * @Before
+	 * public void setUp() {
+	 * }
+	 */
+	
+	@Test
+	//assertEquals(arg1,arg2)
+	//assertTrue(arg)
+	
+	public void testReverse() {
+		assertEquals(6543, Exercise6point3.reverse(3456));
+	}
+
+	public void testIsPalindrome() {
+		assertTrue(Exercise6point3.isPalindrome(456));
+	}
+	
+}
+
+/*
+
+The following methods can be used to implement a test method:
+
+assertTrue(booleanExpression): The method reports success if the booleanExpression evaluates true.
+
+assertEquals(Object, Object): The method reports success if the two objects are the same using the
+equals method.
+
+assertNull(Object): The method reports success if the object reference passed is null.
+
+fail(String): The method causes the test to fail and prints out the string. 
+
+*/

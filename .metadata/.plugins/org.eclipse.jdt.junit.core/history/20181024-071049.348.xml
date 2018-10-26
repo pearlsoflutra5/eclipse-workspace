@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Exercise6point3test" project="6-3 Test" tests="4" started="2" failures="1" errors="1" ignored="0">
+  <testsuite name="chapter6.Exercise6point3test" incomplete="true" uniqueid="[engine:junit-vintage]/[runner:chapter6.Exercise6point3test]">
+    <testcase name="chapter6.Exercise6point3test" classname="chapter6.Exercise6point3test" incomplete="true" displayname="initializationError" uniqueid="[engine:junit-vintage]/[runner:chapter6.Exercise6point3test]/[test:initializationError(chapter6.Exercise6point3test)%5B0%5D]"/>
+    <testcase name="chapter6.Exercise6point3test" classname="chapter6.Exercise6point3test" incomplete="true" displayname="initializationError" uniqueid="[engine:junit-vintage]/[runner:chapter6.Exercise6point3test]/[test:initializationError(chapter6.Exercise6point3test)%5B1%5D]"/>
+  </testsuite>
+  <testsuite name="Unrooted Tests" time="0.006" displayname="Unrooted Tests">
+    <testcase name="chapter6.Exercise6point3test" classname="chapter6.Exercise6point3test" time="0.006" dynamicTest="true" displayname="initializationError" uniqueid="[engine:junit-vintage]/[runner:chapter6.Exercise6point3test]/[dynamic:initializationError(chapter6.Exercise6point3test)]">
+      <error>java.lang.Exception: Method tearDown() should be public
+	at org.junit.runners.model.FrameworkMethod.validatePublicVoid(FrameworkMethod.java:96)
+	at org.junit.runners.model.FrameworkMethod.validatePublicVoidNoArg(FrameworkMethod.java:74)
+	at org.junit.runners.ParentRunner.validatePublicVoidNoArgMethods(ParentRunner.java:155)
+	at org.junit.runners.BlockJUnit4ClassRunner.validateInstanceMethods(BlockJUnit4ClassRunner.java:186)
+	at org.junit.runners.BlockJUnit4ClassRunner.collectInitializationErrors(BlockJUnit4ClassRunner.java:128)
+	at org.junit.runners.ParentRunner.validate(ParentRunner.java:416)
+	at org.junit.runners.ParentRunner.&lt;init&gt;(ParentRunner.java:84)
+	at org.junit.runners.BlockJUnit4ClassRunner.&lt;init&gt;(BlockJUnit4ClassRunner.java:65)
+	at org.junit.internal.builders.JUnit4Builder.runnerForClass(JUnit4Builder.java:10)
+	at org.junit.vintage.engine.discovery.DefensiveAllDefaultPossibilitiesBuilder$DefensiveJUnit4Builder.runnerForClass(DefensiveAllDefaultPossibilitiesBuilder.java:89)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.vintage.engine.discovery.TestClassRequestResolver.createRunnerTestDescriptor(TestClassRequestResolver.java:54)
+	at org.junit.vintage.engine.discovery.VintageDiscoverer.lambda$discover$0(VintageDiscoverer.java:53)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.junit.vintage.engine.discovery.VintageDiscoverer.discover(VintageDiscoverer.java:55)
+	at org.junit.vintage.engine.VintageTestEngine.discover(VintageTestEngine.java:65)
+	at org.junit.platform.launcher.core.DefaultLauncher.discoverEngineRoot(DefaultLauncher.java:130)
+	at org.junit.platform.launcher.core.DefaultLauncher.discoverRoot(DefaultLauncher.java:117)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90)
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)
+
+</error>
+    </testcase>
+    <testcase name="chapter6.Exercise6point3test" classname="chapter6.Exercise6point3test" time="0.003" dynamicTest="true" displayname="initializationError" uniqueid="[engine:junit-vintage]/[runner:chapter6.Exercise6point3test]/[dynamic:initializationError(chapter6.Exercise6point3test)]">
+      <failure>org.opentest4j.MultipleFailuresError: Multiple Failures (2 failures)
+	Method tearDown() should be public
+	Method seUp() should be public
+	at org.junit.vintage.engine.execution.TestRun.getStoredResultOrSuccessful(TestRun.java:166)
+	at org.junit.vintage.engine.execution.RunListenerAdapter.fireExecutionFinished(RunListenerAdapter.java:204)
+	at org.junit.vintage.engine.execution.RunListenerAdapter.testFinished(RunListenerAdapter.java:162)
+	at org.junit.vintage.engine.execution.RunListenerAdapter.testFinished(RunListenerAdapter.java:78)
+	at org.junit.runner.notification.SynchronizedRunListener.testFinished(SynchronizedRunListener.java:56)
+	at org.junit.runner.notification.RunNotifier$7.notifyListener(RunNotifier.java:190)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:72)
+	at org.junit.runner.notification.RunNotifier.fireTestFinished(RunNotifier.java:187)
+	at org.junit.internal.runners.ErrorReportingRunner.runCause(ErrorReportingRunner.java:66)
+	at org.junit.internal.runners.ErrorReportingRunner.run(ErrorReportingRunner.java:38)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:42)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:83)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:74)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:170)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:154)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90)
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)
+
+</failure>
+    </testcase>
+  </testsuite>
+</testrun>

@@ -1,0 +1,14 @@
+package chapter6;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class Exercise6point37test {
+
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+
+}

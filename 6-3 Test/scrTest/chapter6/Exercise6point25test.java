@@ -1,0 +1,19 @@
+/*
+ Kacie Rae
+ 10-24-18
+ 
+ */
+
+package chapter6;
+
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+
+class Exercise6point25test {
+
+	@Test
+	public void testConvertMillis() {
+		assertEquals("0:0:11", Exercise6point25.convertMillis(11245));
+	}
+
+}

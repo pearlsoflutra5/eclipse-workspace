@@ -1,0 +1,14 @@
+package chapter6;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class Exercise6point25test {
+
+	@Test
+	void test() {
+		assertEquals(0:0:11, convertMillis(11245));
+	}
+
+}
