@@ -3,24 +3,26 @@ package chapter6;
 import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.After;
+import org.junit.Test;
 
 /*
- * assertEquals(arg1,arg2)  - will take 2 arguments and return T or F
- * 							- usually 1 arguments will be expected to answer while other is result from function
- * 
- * assertTrue(arg)  - return T or F
- * 					- used for methods that return a boolean 
- * 
- * Fail(error)  - may use if 
+assertEquals(arg1,arg2)  - will take 2 arguments and return T or F
+ 							- usually 1 arguments will be expected to answer while other is result from function
+assertTrue(arg)  - return T or F
+  					- used for methods that return a boolean 
+Fail(error)  - may use if 
+ 
+Before
+ * runs before anything else
+ * necessary for when testing Objects 
+ * this time can use public for @Before and @After
+After
+ * also used with Objects
  */
-
-import org.junit.Test;
 
 public class Exercise6point3test {
 	
-	//runs before anything else
-	//necessary for when testing Objects 
-	//this time can use public for @Before and @After
+	
 	
 	@Before
 	public void seUp() throws Exception{
@@ -38,13 +40,20 @@ public class Exercise6point3test {
 			System.out.println("Reverse Function is a failure.");
 		}
 	}
-
+	
+	@Test
 	public void testIsPalindrome() {
-		assertTrue(Exercise6point3.isPalindrome(456));
+		assertTrue(Exercise6point3.isPalindrome(454));
+		assertFalse(Exercise6point3.isPalindrome(355));
+		if (Exercise6point3.isPalindrome(454) && !Exercise6point3.isPalindrome(355)) {
+			System.out.println("isPalindrome function is correct.");
+		}
+		else {
+			System.out.println("isPalindrome is a failure.");
+		}
+			
 	}
 	
-	
-	//also used with Objects
 	@After
 	public void tearDown() throws Exception{
 		System.out.println("Tear down testing");
