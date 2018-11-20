@@ -13,7 +13,7 @@ public class Exercise6point3 {
 	/**
 	 * This is the main method with makes use of reverse and isPalindrome
 	 * @param args unused
-	 * @return Void 
+	 * @return void 
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
